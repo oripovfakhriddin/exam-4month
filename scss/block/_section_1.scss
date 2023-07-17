@@ -1,0 +1,238 @@
+
+
+#main{
+  background-color: #0D1117;
+}
+#user__page{
+  padding-top: 45px;
+  padding-bottom: 100px;
+}
+
+.user__page-box{
+  max-width: 300px;
+}
+
+.user__page__img-box{
+  max-width: 300px;
+  
+}
+.user__page__img-box img{
+  border-radius: 50%;
+}
+
+.user__page-title{
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+.user__page-text{
+  color: #7d8590;
+  margin-bottom: 15px;
+}
+.user__page-btn{
+  padding: 5px 0;
+  width: 100%;
+  color: #c1d1d9;
+  background-color: #21262D;
+  border: none;
+  border: 1px solid rgba(197, 194, 194, 0.319);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.user__page-btn:hover{
+  border: 1px solid white;
+  background-color: #373e4a;
+}
+.user__page-follow__box{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.user__page-followers{
+  display: flex;
+  align-items: center;
+}
+.user__page-follow{
+  color: #c1d1d9;
+}
+
+.follow-count{
+  margin: 0 5px;
+  color: white;
+}
+.user__pages{
+  display: flex;
+  // align-items: center;
+  gap: 50px;
+}
+.user__page__data + .user__page__data{
+margin-top: 10px;
+}
+
+.user__page-follow:hover{
+  color: rgb(50, 50, 229);
+}
+.user__page__data{
+  display: flex;
+  align-items: center;
+}
+.user__page__data-title{
+  margin-left: 10px;
+  color: aliceblue;
+}
+.user__page__data-title-hov:hover{
+  color: rgb(106, 106, 181);
+}
+.repo__page-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+.repo__list{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.repo__list-item{
+  padding: 20px;
+  display: block;
+ width: 440px;
+  border: 1px solid rgba(197, 194, 194, 0.319);
+  border-radius: 5px;
+}
+
+.repo__list-item-box{
+  max-width: 440px;
+}
+.repo__list-box-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.repo__list-item + .repo__list-item{
+  margin-top: 16px;
+}
+
+.repo__list-title, .repo__list-text{
+  color: aliceblue;
+}
+.repo__item-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.repo__item-link{
+  color: rgb(81, 81, 231);
+}
+.repo__item_param{
+  color: rgba(197, 194, 194, 0.319);
+  border: 1px solid rgba(197, 194, 194, 0.319);
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.repo__item-data1{
+  border: 1px solid orange;
+  padding: 1px 9px;
+  border-radius:  50%;
+  background-color: orange;
+  margin-right: 10px;
+}
+
+.repo__item-data2{
+  color: rgba(197, 194, 194, 0.319);
+
+}
+
+.repos-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.repos__search{
+  border: none;
+  border: 1px solid rgba(197, 194, 194, 0.319);
+  display: inline-block;
+  width: 400px;
+  padding: 5px 10px;
+  background-color: #21262D;
+  color: rgba(197, 194, 194, 0.319);
+  border-radius: 10px;
+}
+
+.selection{
+  border: none;
+  padding: 5px 0px;
+  background-color: #21262D;
+  color: rgba(197, 194, 194, 0.319);
+  border: 1px solid rgba(197, 194, 194, 0.319);
+  border-radius: 10px;
+}
+.selection:hover{
+  background-color: #3d4652;
+  border: 1px solid rgba(216, 214, 214, 0.319);
+}
+
+.repos__new-btn{
+  border: none;
+  border: 1px solid rgba(216, 214, 214, 0.319);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(27, 143, 27);
+}
+
+.repo__item-name{
+  color: rgb(48, 48, 244);
+  font-size: 40px;
+}
+.repo__item-name-box{
+  margin-bottom: 40px;
+}
+.repos__block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow__img{
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.follow__block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.follow__list{
+  width: 900px;
+}
+
+.follow__title {
+  font-size: 30px;
+  color: #c1d1d9;
+}
+.follow__title:hover{
+  color: rgb(48, 48, 244);
+}
+.follow__title-user{
+  color: #3d4652;
+}
+.follow__title-user:hover{
+  color: rgb(48, 48, 244);
+}
+.follow__title-user-text{
+  margin-top: 10px;
+  color: #3d4652;
+}
